@@ -1,0 +1,12 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/nasmijaniIsus.jpg);
+   background-blend-mode: darken;
+    background-repeat: no-repeat;
+   background-position: top;
+}
