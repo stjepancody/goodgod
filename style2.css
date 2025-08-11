@@ -5,8 +5,9 @@
 }
 
 body {
-    background-image: url(images/nasmijaniIsus.jpg);
+    background-image: url(images/goodGod.jpg);
    background-blend-mode: darken;
     background-repeat: no-repeat;
-   background-position: top;
+    background-attachment: fixed;
+  background-position: center center;
 }

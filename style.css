@@ -30,23 +30,30 @@ body {
 header {
   background-color: var(--primary-color);
   color: white;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: center;
   font-family: var(--header-font);
 }
 
 
 h1 {
-   letter-spacing: 9px;
-   margin: 1rem;
+   letter-spacing: 12px;
+   margin: .5rem;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.good {
+  font-size: 32px;
+  color: aquamarine;
 }
 
 .breathing span {
   font-weight: 500px;
-  font-size: 48px;
+  font-size: 58px;
   color: #C6A664;
-  animation: breathe 3500ms 1 forwards;
+  animation: breathe 2500ms 1 ease-in-out;
+  
+
 }
 
 @keyframes breathe {
@@ -66,17 +73,21 @@ h3 {
 
 /* Navigation */
 nav {
+ left: 20%;
    overflow: hidden;
  color:black;
  background-color: #C6A664;
   margin-top: 1rem;
+  margin-bottom: 1.5rem;
   padding: 1.5rem;
   font-size: 20px;
-  margin: 10px;
+ 
   border: solid white 3px;
   border-radius: 8px;
   z-index: 10;
   position: relative;
+  width: 60%;
+ 
 }
 
 nav ul {
@@ -84,7 +95,7 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2.5rem;
 }
 
 nav ul li a {
@@ -119,14 +130,6 @@ nav:hover  ~ .page-content {
 
 
 
-/* Image */
-header img {
-  margin-top: 1rem;
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(28, 42, 77, 0.3);
-}
 
 header p {
  text-align: justify;
@@ -144,36 +147,41 @@ footer {
 }
 
 
-.title-picture {
-   display: flex;
-   flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-height: 100%;
+  .pictures img {
+    height: 640px;
+    width: auto
   }
 
-  .title-picture p {
-    width: 50%;
-  }
 
+  .subtext p {
+    margin: auto;
+    width: 26%;
+    
+  }
 
 /* Button Styling */
 .colapse {
    /* Makes button visible */
-  width: 60%;
+  width: 30%;
   padding: 12px 20px;
   background: var(--primary-color);
   color: var(--accent-color);
   border: var(--accent-color) 3px solid;
   border-radius: 10px;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
   text-align: center;
   cursor: pointer;
   margin: 10%;
   transition: all 0.3s ease;
  
+}
+
+.co-left {
+  float: left;
+}
+
+.co-right {
+  float: right;
 }
 
 .colapse:hover {
@@ -182,6 +190,8 @@ height: 100%;
   color: black;
   border-color: var(--primary-color);
   text-transform: capitalize;
+  font-weight: bold;
+
  
 }
 
@@ -218,12 +228,7 @@ height: 100%;
   text-align: justify;
 }
 
-.pictures img {
-  width: 50%;
-  height: auto;
-  float: left;
-  margin: 15px 5px auto 0px
-}
+
 
 /*adding position to the pictures in contest-left coplapse menu*/
 
@@ -272,14 +277,15 @@ height: 100%;
 
 #samarijanka {
   width:auto;
-  height: 420px;
+  height: 480px;
   float: right;
   margin: 8px;
   
 }
 
 .finale {
-  margin-top: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
     
