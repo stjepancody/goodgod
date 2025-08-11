@@ -99,7 +99,7 @@ nav ul {
 }
 
 nav ul li a {
-  margin: 12px;
+  margin: 8px;
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -147,6 +147,13 @@ footer {
 }
 
 
+.pictures {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
   .pictures img {
     height: 640px;
     width: auto
@@ -155,7 +162,7 @@ footer {
 
   .subtext p {
     margin: auto;
-    width: 26%;
+    width: 40%;
     
   }
 
