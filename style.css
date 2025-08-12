@@ -165,7 +165,7 @@ footer {
 
 .subtext p{
     margin: auto;
-    width: 430px;
+    width: 360px;
     text-align:justify
     
   }
@@ -231,7 +231,8 @@ footer {
 /* Show content when active */
 .colapse.active + .content {
   display: block;
-  background-color: rgba(244, 233, 216, 0.8)
+  background-color: rgba(244, 233, 216, 0.8);
+  
 }
 
 .content p {
