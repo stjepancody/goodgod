@@ -166,34 +166,33 @@ footer {
 .subtext p{
     margin: auto;
     width: 560px;
-    text-align:justify
+    text-align:justify;
+    margin-bottom: 3rem;
     
   }
 
 /* Button Styling */
 .colapse {
    /* Makes button visible */
-  width: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  width: 60%;
+  margin: auto;
   padding: 12px 20px;
   background: var(--primary-color);
   color: var(--accent-color);
   border: var(--accent-color) 3px solid;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   cursor: pointer;
-  margin: 10%;
+  
   transition: all 0.3s ease;
  
 }
 
-.co-left {
-  float: left;
-}
 
-.co-right {
-  float: right;
-}
 
 .colapse:hover {
   background: var(--accent-color);
@@ -226,6 +225,7 @@ footer {
   padding: 15px;
   background: #f8f8f8;
   border-radius: 0 0 4px 4px;
+ 
 }
 
 /* Show content when active */
@@ -235,10 +235,15 @@ footer {
   
 }
 
-.content p {
-  margin-top: 0.7rem;
+.content-left p {
   text-align: justify;
 }
+
+.content-right p {
+  text-align: justify;
+}
+
+
 
 
 
@@ -299,6 +304,8 @@ footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+
 
     
 
