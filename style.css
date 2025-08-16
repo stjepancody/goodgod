@@ -301,6 +301,29 @@ footer {
 }
 
 
+#ch {
+  display: none;
+}
 
+.cnt {
+  display: none;
+}
     
+#ch:checked ~ .cnt {
+  display: block;
+}
 
+#ch:checked ~ label {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 4px 12px;
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+  margin-top: 12px;
+  cursor: pointer;
+}
